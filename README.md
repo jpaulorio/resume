@@ -1,5 +1,5 @@
 # Joao Paulo Leonidas Fernandes Dias da Silva 
-Mason, OH | +1-513-628-7609 | jplfdsilva@gmail.com| [linkedin.com/in/joaopauloleonidas](https://www.linkedin.com/in/joaopauloleonidas) | [jplfds.com](http://jplfds.com)
+Mason, OH | +1-513-6XX-XXXX | jplfdsilva@gmail.com| [linkedin.com/in/joaopauloleonidas](https://www.linkedin.com/in/joaopauloleonidas) | [jplfds.com](http://jplfds.com)
 ---
 
 ## Summary
