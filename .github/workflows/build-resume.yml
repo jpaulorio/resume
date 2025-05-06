@@ -72,3 +72,9 @@ jobs:
         uses: actions/deploy-pages@v4
         # No explicit 'artifact_name' needed here if using the default from upload-pages-artifact
         # The 'to' parameter for deploy-pages is not needed for the default behavior.
+
+      - name: Log GitHub Pages URL
+        if: success() && steps.deployment.outputs.page_url != ''
+        run: |
+          echo "PDF successfully deployed to GitHub Pages."
+          echo "Access it at: ${{ steps.deployment.outputs.page_url }}JP_Silva_Resume.pdf"
