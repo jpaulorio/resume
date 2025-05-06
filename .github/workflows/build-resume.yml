@@ -12,6 +12,8 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+    container:
+      image: pandoc/latex:latest # Use a Docker container with Pandoc and LaTeX pre-installed
     permissions:
       contents: read  # To checkout the repository
       pages: write    # To deploy to GitHub Pages
@@ -21,10 +23,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Pandoc and LaTeX dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra texlive-xetex
+      # The Pandoc and LaTeX installation step is no longer needed as it's in the container.
 
       - name: Set Current Date
         id: date
@@ -53,17 +52,19 @@ jobs:
 
       - name: Prepare Pages Artifact
         run: |
+          DEPLOY_DIR="_artifact_to_deploy"
           PAGES_FILENAME="JP_Silva_Resume.pdf" # Fixed name for GitHub Pages
-          cp "${{ env.PDF_ARTIFACT_NAME }}" "$PAGES_FILENAME"
-          echo "PDF_PAGES_NAME=$PAGES_FILENAME" >> $GITHUB_ENV
-          echo "Deploying $PAGES_FILENAME to GitHub Pages"
+          mkdir -p "$DEPLOY_DIR"
+          cp "${{ env.PDF_ARTIFACT_NAME }}" "$DEPLOY_DIR/$PAGES_FILENAME"
+          echo "PDF_PAGES_DEPLOY_PATH=$DEPLOY_DIR" >> $GITHUB_ENV
+          echo "Deploying $PAGES_FILENAME from $DEPLOY_DIR to GitHub Pages"
 
       # Upload artifact for GitHub Pages deployment
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Path to the file or directory to upload.
-          path: ${{ env.PDF_PAGES_NAME }}
+          # Path to the directory to upload.
+          path: ${{ env.PDF_PAGES_DEPLOY_PATH }}
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
