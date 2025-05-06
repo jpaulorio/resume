@@ -1,0 +1,73 @@
+name: Build Resume PDF and Deploy to Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md' # Only run if README.md changes
+      - '.github/workflows/build-resume.yml' # Or if the workflow itself changes
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read  # To checkout the repository
+      pages: write    # To deploy to GitHub Pages
+      id-token: write # To authenticate with GitHub Pages
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and LaTeX dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
+
+      - name: Set Current Date
+        id: date
+        run: echo "DATE_SUFFIX=$(date +'%m_%d_%Y')" >> $GITHUB_ENV
+
+      - name: Convert Markdown to PDF
+        run: |
+          PDF_FILENAME="JP_Silva_Resume_${{ env.DATE_SUFFIX }}.pdf"
+          echo "Generated PDF Filename: $PDF_FILENAME"
+          pandoc README.md -o "$PDF_FILENAME" --pdf-engine=xelatex
+          # You can add more pandoc arguments here if needed for styling, e.g.:
+          # pandoc README.md -o "$PDF_FILENAME" --pdf-engine=xelatex --variable=geometry:margin=1in --toc
+          echo "PDF_ARTIFACT_NAME=$PDF_FILENAME" >> $GITHUB_ENV
+
+      - name: Upload PDF as build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resume-pdf-${{ env.DATE_SUFFIX }} # Artifact name includes date
+          path: ${{ env.PDF_ARTIFACT_NAME }}
+          retention-days: 90 # Optional: How long to keep the artifact
+
+      # Configure GitHub Pages
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+
+      - name: Prepare Pages Artifact
+        run: |
+          PAGES_FILENAME="JP_Silva_Resume.pdf" # Fixed name for GitHub Pages
+          cp "${{ env.PDF_ARTIFACT_NAME }}" "$PAGES_FILENAME"
+          echo "PDF_PAGES_NAME=$PAGES_FILENAME" >> $GITHUB_ENV
+          echo "Deploying $PAGES_FILENAME to GitHub Pages"
+
+      # Upload artifact for GitHub Pages deployment
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Path to the file or directory to upload.
+          path: ${{ env.PDF_PAGES_NAME }}
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        # No explicit 'artifact_name' needed here if using the default from upload-pages-artifact
+        # The 'to' parameter for deploy-pages is not needed for the default behavior.
