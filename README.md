@@ -2,6 +2,8 @@
 Mason, OH | +1-513-XXX-XXXX | jplfdsilva@gmail.com  
 [linkedin.com/in/joaopauloleonidas](https://linkedin.com/in/joaopauloleonidas) | [jplfds.com](https://jplfds.com) | [github.com/jpaulorio](https://github.com/jpaulorio)
 
+[Resume's latest version](https://jpaulorio.github.io/resume/JP_Silva_Resume.pdf) (this document)
+
 ---
 
 ## Summary
