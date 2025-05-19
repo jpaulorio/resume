@@ -1,100 +1,115 @@
-# Joao Paulo Leonidas Fernandes Dias da Silva 
-Mason, OH | +1-513-6XX-XXXX | jplfdsilva@gmail.com| [linkedin.com/in/joaopauloleonidas](https://www.linkedin.com/in/joaopauloleonidas) | [jplfds.com](http://jplfds.com)
+# Joao Paulo Leonidas Fernandes Dias da Silva  
+Mason, OH | +1-513-XXX-XXXX | jplfdsilva@gmail.com  
+[linkedin.com/in/joaopauloleonidas](https://linkedin.com/in/joaopauloleonidas) | [jplfds.com](https://jplfds.com) | [github.com/jpaulorio](https://github.com/jpaulorio)
+
 ---
 
 ## Summary
-Principal-level Software Engineer and Architect (25+ years) with extensive experience leading teams, defining technical strategy, and delivering complex distributed systems and data solutions for global Fortune 500 companies. Proven expertise in microservices, event-driven architecture, Domain-Driven Design (DDD), and data engineering (Spark, Hadoop). Passionate about coaching engineers, fostering agile best practices, advocating for robust test strategies, and effectively bridging the gap between technical teams and business stakeholders. Actively exploring and integrating Large Language Models (LLMs) and agentic systems.
+
+Principal-level Software Engineer and Architect with over 25 years of experience, specializing in designing and delivering complex distributed systems, data solutions for global Fortune 500 companies. Proven expertise in microservices, event-driven architecture, Domain-Driven Design (DDD), and data engineering (Apache Spark). Recently spearheaded the modernization of a legacy microservices architecture while improving the delivery teams' development practices by introducing Agile practices like trunk-based development, pair programming, TDD, dev huddles, infra-as-code, test pyramid, tech debt management, among others. Passionate about coaching high-performing engineering teams, championing agile best practices, and driving technical strategy that aligns with business objectives.
 
 ---
 
 ## Skills
 
-* **Leadership & Methodology:**
-    * Team Leadership
-    * Coaching & Mentoring
-    * Technical Strategy Definition
-    * Agile Methodologies
-    * Stakeholder Management & Communication
-    * Project Inception & Facilitation
-    * Technical Roadmapping
-* **Architecture & Design:**
-    * Distributed Systems Design
-    * Microservice Architecture
-    * Event-Driven Architecture
-    * Domain-Driven Design (DDD)
-    * Software Architecture Patterns
-    * Cloud Architecture (AWS, Azure, GCP)
-    * API Design & Strategy (REST, gRPC, GraphQL)
-    * System Scalability & Resilience
-* **Technical Expertise:**
-    * Backend Development (Scala, Clojure, Java, C#/.NET)
-    * Data Engineering (Apache Spark, Hadoop Ecosystem, ETL, Stream Processing)
-    * Databases (Cassandra, MongoDB, MySQL, SQL Server, PostgreSQL)
-    * Test Strategy & Automation
-    * AI/LLM Integration
-    * Parallel Programming
-    * Mobile Development (iOS, Android)
+### Architecture & Design
+- Distributed Systems Design, Microservices, Event-Driven Architecture (EDA), Actor Model, Event Sourcing/CQRS
+- Domain-Driven Design (DDD), Software Architecture Patterns
+- Cloud Architecture: AWS, Azure, GCP
+- API Design: REST, gRPC, GraphQL
+- Scalability, Resilience, Performance Optimization
+
+### Technical Expertise & DevOps
+- **Languages**: Java, Scala, Clojure, C#/.NET, JS/TS
+- **CI/CD**: Jenkins, CircleCI, Harness, GitHub Actions, Azure DevOps
+- **Containerization**: Docker, Kubernetes
+- **Infrastructure as Code (IaC)**: Terraform, Bicep (Azure)
+- **Monitoring**: Dynatrace, Prometheus, Grafana, Datadog, ELK Stack
+- **Testing**: Unit, Integration, Contract (Pact), Performance (Gatling/K6), Smoke
+- Parallel Programming
+- Mobile Development (iOS, Android – foundational)
+
+### Leadership & Methodology
+- Engineering Leadership, Coaching (Clean Code, TDD, Agile)
+- Technical Strategy & Roadmapping
+- Agile (Scrum, Kanban)
+- Stakeholder Management, Executive Communication
+- Project Inception, Technical Discovery Facilitation
+
+### Data Engineering
+- Apache Spark, Hadoop Ecosystem, ETL, Stream Processing, Data Lakes, Data Warehousing
+- Databases: Cassandra, MongoDB, MySQL, SQL Server, PostgreSQL
+
+### AI/ML & Data Platforms
+- **Gen-AI Platforms**: Claude API, OpenAI API, Hugging Face Models
+- **LLM Concepts & Tooling**: LLMs, RAG, Prompt Engineering, Agentic Systems
+- **Frameworks**: LangChain
+- **Core Concepts**: Machine Learning, Neural Networks, LLMs/GenAI
 
 ---
 
 ## Work Experience
 
-**Lead Consultant** | *ThoughtWorks* | Mason, OH
-*May 2014 - Present (11 years)*
-* Led the architectural design and technical direction for complex microservices-based solutions for Fortune 500 clients across banking, health insurance, retail, and travel sectors, often applying Domain-Driven Design principles.
-* Directed engineering efforts for robust data pipelines and large-scale data processing using Apache Spark and the Hadoop ecosystem.
-* Defined and implemented comprehensive test strategies encompassing unit, integration, and end-to-end testing for distributed systems, ensuring quality and reliability.
-* Architected and managed scalable, resilient applications leveraging diverse technology stacks (Java, Scala/Akka, C#/.NET, Cassandra) and major cloud platforms (AWS, Azure, GCP).
-* Served in key roles including Software Architect, Data Engineer, and Technical Lead, guiding development teams and influencing technical decision-making.
-* Led technical discovery and facilitated inception workshops with senior business and technical stakeholders to define project scope, align on architecture, manage expectations, and establish roadmaps.
-* Mentored and coached junior and senior engineers, fostering growth in technical skills (including Clean Code, TDD), agile practices, and architectural thinking.
-* Presented technical talks on Data Lakes at international software development conferences (QCon Rio 2017, QCon Sao Paulo event), sharing expertise with the broader community.
-* Explored and implemented solutions integrating Large Language Models (LLMs) for specific application features; experimented with agentic system design patterns.
+### **Lead Consultant** | ThoughtWorks | Mason, OH  
+**May 2014 – Present**
 
-**System Analyst - Software Developer** | *Instituto Atlântico* | Fortaleza, Brazil
-*September 2013 - January 2014 (5 months)*
-* Contributed to a mobile development team building an Android application designed for HP printer integration/management.
+- Architected an event-sourcing/CQRS solution (Scala/Akka/gRPC) for a Fortune 500 client, achieving **80% improvement** in response time and **99.99% uptime**.
+- Designed and led a **60+ microservices** system processing **20M+ daily events** with **99.99% uptime** for a global retail client. Leveraged DDD for clean bounded contexts.
+- Developed high-performance Spark streamming pipelines **10TB+ daily** for a healthcare provider, replacing batch with streamming processing resulting in **60% reduction in overall processing time**
+- Implemented automated test strategies (unit to contract), resulting in a **90% drop in production defects**.
+- Facilitated technical discovery workshops with C-level stakeholders, defining roadmaps for digital transformation.
+- Facilidated technological and development process assessment to large Canadian Health Care provider.
+- Mentored **30+ engineers**, improving team velocity by **40%** and increasing deployment frequency to **once a week** from once every 6 months through coaching on TDD, Clean Code, and agile principles.
+- Coached over 10 colleagues over the years on career and professional growth.
+- Speaker at QCon Rio 2017 and QCon São Paulo on “Architecting Scalable Data Lakes.”
 
-**Software Developer** | *XS2theWorld* | (Remote/Contract)
-*January 2012 - March 2012 (3 months)*
-* Developed native mobile applications for both iOS and Android platforms for major clients, including McDonald's.
+### **System Analyst – Software Developer** | Instituto Atlântico | Fortaleza, Brazil  
+**Sep 2013 – Jan 2014**  
+- Contributed to Android development team on HP printers management app.  
+- Coached team members on adoption of version control with Git.
 
-**Project Leader** | *Instituto Atlântico* | Fortaleza, Brazil
-*January 2010 - April 2012 (2 years 4 months)*
-* Led a team of 2 developers in revamping a WPF application using C#/.NET for configuring industrial LED panels.
-* Directed a team of 3 developers in creating an internal ASP.NET MVC application tailored for the Maranhao state electrical company.
-* Developed internal web applications using ASP.NET for Mettler Toledo.
+---
 
-**Owner** | *Auctor Informática* | Brazil
-*February 2006 - December 2012 (6 years 11 months)*
-* Founded company and developed www.quantoe.com.br, a B2B price comparison web portal, using ASP.NET and MySQL.
+### **Early Career Highlights (1998–2012)**
 
-**Developer** | *Anima Informática* | Brazil
-*June 2002 - January 2006 (3 years 8 months)*
-* Developed financial software systems using Delphi and C#.
-
-**Software Developer (Robotics Lab)** | *Instituto de Tecnologia ORT* | Rio de Janeiro, Brazil
-*January 1998 - December 2000 (3 years)*
-* Developed hardware and software solutions within the institute's robotics laboratory and served as lab monitor.
+- **Contract Developer**, XS2theWorld (2012): Built iOS/Android apps for clients like McDonald’s.
+- **Project Leader**, Instituto Atlântico (2010–2012): Led WPF and ASP.NET MVC teams for major Brazilian companies.
+- **Founder**, Auctor Informática (2006–2012): Created www.quantoe.com.br, a B2B price comparison platform.
+- **Developer**, Anima Informática (2002–2006): Built financial systems using Delphi and C#.
+- **Lab Monitor (Robotics Lab)**, Instituto ORT (1998–2000): Designed robotics software/hardware solutions.
 
 ---
 
 ## Certifications
-* AWS Certified Cloud Practitioner
-* AWS Partner Technical Accreditation
-* HDP Developer: Apache Pig and Hive
-* Introduction to Functional Programming (edX)
-* Heterogeneous Parallel Programming (University of Illinois at Urbana-Champaign via Coursera)
+
+- AWS Certified Cloud Practitioner  
+- AWS Partner Technical Accreditation  
+- HDP Developer: Apache Pig and Hive  
+- Introduction to Functional Programming (edX)  
+- Heterogeneous Parallel Programming (Coursera – University of Illinois)
 
 ---
 
+## Technical Content
+
+- [Apache Spark](https://pt.slideshare.net/slideshow/apache-spark-intro-237112555/237112555?_gl=1*1wwju08*_gcl_au*MzQ1OTI1OTU2LjE3NDM5NDc1ODY.)
+- [Apache Kafka](https://www.slideshare.net/slideshow/kafka-basics/237110884)
+- [Apache Cassandra](https://www.slideshare.net/slideshow/query-driven-development/78218074)
+- [Recommender Systems](https://www.slideshare.net/slideshow/recommender-systems-52718571/52718571)
+- [Apache Storm](https://www.slideshare.net/JooPauloLeonidasFern/apache-storm-basics)
+- [GPU Programming - OpenCL](https://www.slideshare.net/slideshow/opencl-heterogeneous-parallel-computing/52435001)
+- [Unit Testing](https://www.slideshare.net/slideshow/unit-testing-basics-52434530/52434530)
+- [QCon 2017 Rio Workshop - Data Lakes - PT-BR](https://pt.slideshare.net/slideshow/qcon-rio-2015-data-lakes-workshop/52430448?_gl=1*1cv7tzx*_gcl_au*MzQ1OTI1OTU2LjE3NDM5NDc1ODY.)
+
 ## Education
-* **Faculdade Christus** | Fortaleza, Brazil - Informatics Coursework (2009 - 2012)
-* **Universidade do Estado do Rio de Janeiro (UERJ)** | Rio de Janeiro, Brazil - Engineering Coursework (1998 - 2001)
-* **Instituto de Tecnologia ORT** | Rio de Janeiro, Brazil - AAS, Electronics (1995 - 1997)
+
+- **Faculdade Christus** – Informatics Coursework, Fortaleza, Brazil (2009–2012) - Incomplete
+- **UERJ** – Engineering Coursework, Rio de Janeiro, Brazil (1998–2001) - Incomplete  
+- **Instituto de Tecnologia ORT** – AAS in Electronics, Rio de Janeiro, Brazil (1995–1997)
 
 ---
 
 ## Languages
-* Portuguese (Native)
-* English (Full Professional Proficiency)
+
+- **Portuguese** – Native  
+- **English** – Full Professional Proficiency
