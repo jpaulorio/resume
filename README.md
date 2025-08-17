@@ -1,7 +1,7 @@
 ---
-title: "Joao Paulo L. F. D. da Silva"
+title: "Joao Paulo L. F. Dias da Silva"
 subtitle: "Principal Software Architect | Distributed Systems • Event-Driven & Data Platforms • Team Enablement"
-author: "Joao Paulo Leonidas Fernandes Dias da Silva"
+author: "Joao Paulo L. F. Dias da Silva"
 keywords:
   [
     "Distributed Systems",
@@ -24,7 +24,7 @@ geometry: margin=1in
 fontsize: 10pt
 ---
 
-# Joao Paulo L. F. D. da Silva
+# About
 
 Principal Software Architect | Distributed Systems & Data Platforms | Engineering Excellence
 
