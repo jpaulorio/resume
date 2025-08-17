@@ -24,7 +24,6 @@ jobs:
         run: |
           set -euo pipefail
           sudo apt-get update
-            # pandoc (if runner version outdated), LaTeX, and emoji-capable fonts
           sudo apt-get install -y --no-install-recommends \
             pandoc texlive-luatex texlive-latex-extra texlive-fonts-recommended \
             fonts-noto-color-emoji fonts-dejavu
@@ -60,7 +59,7 @@ jobs:
         run: |
           set -euo pipefail
           mkdir -p _artifact_to_deploy
-          cp "${{ env.PDF_ARTIFACT_NAME }}" _artifact_to_deploy/JP_Silva_Resume.pdf
+          cp "${{ env.PDF_ARTIFACT_NAME }}" "_artifact_to_deploy/JP_Silva_Resume.pdf"
           echo "PDF_PAGES_DEPLOY_PATH=_artifact_to_deploy" >> "$GITHUB_ENV"
 
       - name: Upload Pages artifact
@@ -74,4 +73,10 @@ jobs:
 
       - name: Log URL
         if: success() && steps.deployment.outputs.page_url != ''
-        run: echo "Access: ${{ steps.deployment.outputs.page_url }}JP_Silva_Resume.pdf"
+        run: |
+          BASE_URL='${{ steps.deployment.outputs.page_url }}'
+          case "$BASE_URL" in
+            */) URL="${BASE_URL}JP_Silva_Resume.pdf" ;;
+            *)  URL="${BASE_URL}/JP_Silva_Resume.pdf" ;;
+          esac
+          echo "Access: $URL"
