@@ -27,10 +27,15 @@ geometry: margin=1in
 Principal Software Architect | Distributed Systems & Data Platforms | Engineering Excellence
 
 Mason, OH
+
 Email: [jplfdsilva@gmail.com](mailto:jplfdsilva@gmail.com) 🔗
+
 LinkedIn: [linkedin.com/in/joaopauloleonidas](https://linkedin.com/in/joaopauloleonidas) 🔗
+
 GitHub: [github.com/jpaulorio](https://github.com/jpaulorio) 🔗
-Site: [jplfds.com](https://jplfds.com) 🔗  
+
+Site: [jplfds.com](https://jplfds.com) 🔗
+
 [Latest Resume PDF](https://jpaulorio.github.io/resume/JP_Silva_Resume.pdf) 🔗
 
 ## Summary
@@ -41,7 +46,7 @@ Led the modernization of legacy ecosystems (monolith to microservices, DDD, even
 
 Architected data platforms (lambda architecture, data lake/mesh), designed and implementated ETL and real-time/streaming pipelines using Databricks, Apache Spark, HDFS, Kafka, and the equivalent cloud-native stack in AWS and Azure, while elevating data excellence (governance frameworks, cataloging and lineage, security and compliance, data quality, and democratized data access).
 
-Proven record of cutting latency, boosting deployment frequency (months to weekly), achieving 99.99% availability and accelerating business value through autonomous, cross-functional teams.
+Has consistently helped autonomous and cross-functional teams deliver business value early and often while ensuring the implementation of high-quality, high-performance, and maintainable solutions.
 
 Brings strong consulting and leadership skills (coaching and mentoring individuals and teams, facilitating collaboration, guiding conflict resolution, and building stakeholder alignment) to drive lasting transformation beyond technology delivery.
 
