@@ -2,10 +2,10 @@ name: Build Resume PDF and Deploy to Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
-      - "README.md"
-      - ".github/workflows/build-resume.yml"
+      - README.md
+      - .github/workflows/build-resume.yml
   workflow_dispatch:
 
 jobs:
@@ -22,17 +22,20 @@ jobs:
 
       - name: Install pandoc, LaTeX and emoji fonts
         run: |
+          set -euo pipefail
           sudo apt-get update
+            # pandoc (if runner version outdated), LaTeX, and emoji-capable fonts
           sudo apt-get install -y --no-install-recommends \
             pandoc texlive-luatex texlive-latex-extra texlive-fonts-recommended \
             fonts-noto-color-emoji fonts-dejavu
           fc-cache -f
 
       - name: Set date
-        run: echo "DATE_SUFFIX=$(date +'%m_%d_%Y')" >> $GITHUB_ENV
+        run: echo "DATE_SUFFIX=$(date +'%m_%d_%Y')" >> "$GITHUB_ENV"
 
-      - name: Build PDF (lualatex for emoji 🔗)
+      - name: Build PDF (lualatex)
         run: |
+          set -euo pipefail
           PDF_FILENAME="JP_Silva_Resume_${DATE_SUFFIX}.pdf"
           echo "Building $PDF_FILENAME"
           pandoc README.md \
@@ -41,7 +44,7 @@ jobs:
             -V monofont="DejaVu Sans Mono" \
             -V fontsize=10pt \
             -o "$PDF_FILENAME"
-          echo "PDF_ARTIFACT_NAME=$PDF_FILENAME" >> $GITHUB_ENV
+          echo "PDF_ARTIFACT_NAME=$PDF_FILENAME" >> "$GITHUB_ENV"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -55,9 +58,10 @@ jobs:
 
       - name: Prepare Pages content
         run: |
+          set -euo pipefail
           mkdir -p _artifact_to_deploy
-          cp "${PDF_ARTIFACT_NAME}" _artifact_to_deploy/JP_Silva_Resume.pdf
-          echo "PDF_PAGES_DEPLOY_PATH=_artifact_to_deploy" >> $GITHUB_ENV
+          cp "${{ env.PDF_ARTIFACT_NAME }}" _artifact_to_deploy/JP_Silva_Resume.pdf
+          echo "PDF_PAGES_DEPLOY_PATH=_artifact_to_deploy" >> "$GITHUB_ENV"
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
