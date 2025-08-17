@@ -3,32 +3,23 @@ title: "Joao Paulo L. F. Dias da Silva"
 subtitle: "Principal Software Architect | Distributed Systems • Event-Driven & Data Platforms • Team Enablement"
 author: "Joao Paulo L. F. Dias da Silva"
 keywords:
-  [
-    "Distributed Systems",
-    "Event-Driven Architecture",
-    "Microservices",
-    "Data Engineering",
-    "DDD",
-    "Kafka",
-    "Spark",
-    "Kubernetes",
-    "Terraform",
-    "Cloud",
-    "CQRS",
-    "Event Sourcing",
-    "Leadership",
-    "TDD",
-    "GenAI",
-  ]
-geometry: margin=1in
+  - Distributed Systems
+  - Event-Driven Architecture
+  - Microservices
+  - Data Engineering
+  - DDD
+  - Kafka
+  - Spark
+  - Kubernetes
+  - Terraform
+  - Cloud
+  - CQRS
+  - Event Sourcing
+  - Leadership
+  - TDD
+  - GenAI
 fontsize: 10pt
-header-includes:
-  - |
-    \usepackage{fontspec}
-    \usepackage{hyperref}
-    \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
-    % Main font + emoji fallback (remove Renderer=Harfbuzz for broader compatibility)
-    \setmainfont{DejaVu Sans}[FallbackFamilies={Noto Color Emoji}]
+geometry: margin=1in
 ---
 
 # About

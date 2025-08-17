@@ -12,18 +12,21 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
 
-    # Run this job inside your prebuilt image so tools are preinstalled
+    # Use prebuilt container with pandoc + LaTeX + fonts
     container:
-      image: ghcr.io/jpaulorio/resume-build:latest
-      options: --user 1001:1001 # avoids root-owned artifacts on Actions; optional
+      image: ghcr.io/OWNER/resume-build:latest
+      options: --user 1001:1001
+
+    # Default to bash (so set -euo pipefail works consistently)
     defaults:
       run:
         shell: bash
+
     permissions:
       contents: read
       pages: write
       id-token: write
-      packages: read # allow pulling the GHCR image (private repos may need this)
+      packages: read
 
     steps:
       - name: Checkout
@@ -41,9 +44,15 @@ jobs:
       - name: Generate TeX (for debugging)
         run: |
           set -euo pipefail
-          pandoc README.md \
+          pandoc -s README.md \
+            --from=gfm+yaml_metadata_block \
             --pdf-engine=lualatex \
+            -V documentclass=article \
+            -V colorlinks=true -V linkcolor=blue -V urlcolor=blue \
+            -V mainfont="DejaVu Sans" \
+            -V monofont="DejaVu Sans Mono" \
             -V fontsize=10pt \
+            -V geometry:margin=1in \
             -o resume-debug.tex
           echo "Generated intermediate resume-debug.tex"
 
@@ -59,9 +68,15 @@ jobs:
           set -euo pipefail
           PDF_FILENAME="JP_Silva_Resume_${DATE_SUFFIX}.pdf"
           echo "Building $PDF_FILENAME"
-          pandoc README.md \
+          pandoc -s README.md \
+            --from=gfm+yaml_metadata_block \
             --pdf-engine=lualatex \
+            -V documentclass=article \
+            -V colorlinks=true -V linkcolor=blue -V urlcolor=blue \
+            -V mainfont="DejaVu Sans" \
+            -V monofont="DejaVu Sans Mono" \
             -V fontsize=10pt \
+            -V geometry:margin=1in \
             -o "$PDF_FILENAME"
           echo "PDF_ARTIFACT_NAME=$PDF_FILENAME" >> "$GITHUB_ENV"
 
