@@ -1,7 +1,6 @@
 ---
 title: "Joao Paulo L. F. Dias da Silva"
 subtitle: "Principal Software Architect | Distributed Systems • Event-Driven & Data Platforms • Team Enablement"
-author: "Joao Paulo L. F. Dias da Silva"
 keywords:
   - Distributed Systems
   - Event-Driven Architecture
@@ -22,7 +21,7 @@ fontsize: 10pt
 geometry: margin=1in
 ---
 
-# About
+## About
 
 Principal Software Architect | Distributed Systems & Data Platforms | Engineering Excellence
 
