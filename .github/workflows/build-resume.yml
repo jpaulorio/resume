@@ -46,6 +46,7 @@ jobs:
           set -euo pipefail
           pandoc -s README.md \
             --from=gfm+yaml_metadata_block \
+            --lua-filter=.pandoc/emoji-to-fa.lua \
             --pdf-engine=lualatex \
             -V documentclass=article \
             -V colorlinks=true -V linkcolor=blue -V urlcolor=blue \
