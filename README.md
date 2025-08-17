@@ -23,8 +23,10 @@ keywords:
 geometry: margin=1in
 fontsize: 10pt
 header-includes:
+  - \usepackage{fontspec}
   - \usepackage{hyperref}
   - \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+  - \setmainfont{DejaVu Sans}[FallbackFamilies={Noto Color Emoji}]
 ---
 
 # About
