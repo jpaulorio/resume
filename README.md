@@ -26,14 +26,22 @@ geometry: margin=1in
 
 Principal Software Architect | Distributed Systems & Data Platforms | Engineering Excellence
 
-Mason, OH • Email: [jplfdsilva@gmail.com](mailto:jplfdsilva@gmail.com) 🔗 • LinkedIn: [linkedin.com/in/joaopauloleonidas](https://linkedin.com/in/joaopauloleonidas) 🔗 • GitHub: [github.com/jpaulorio](https://github.com/jpaulorio) 🔗 • Site: [jplfds.com](https://jplfds.com) 🔗  
-[Latest PDF](https://jpaulorio.github.io/resume/JP_Silva_Resume.pdf) 🔗
-
-<sub>Legend: 🔗 indicates a clickable hyperlink in the PDF.</sub>
+Mason, OH
+Email: [jplfdsilva@gmail.com](mailto:jplfdsilva@gmail.com) 🔗
+LinkedIn: [linkedin.com/in/joaopauloleonidas](https://linkedin.com/in/joaopauloleonidas) 🔗
+GitHub: [github.com/jpaulorio](https://github.com/jpaulorio) 🔗
+Site: [jplfds.com](https://jplfds.com) 🔗  
+[Latest Resume PDF](https://jpaulorio.github.io/resume/JP_Silva_Resume.pdf) 🔗
 
 ## Summary
 
-Principal software architect (25+ yrs) delivering large-scale distributed, event-driven and data-intensive platforms for Fortune 500 enterprises. Modernizes legacy ecosystems (microservices, streaming, IaC, trunk-based delivery) while elevating engineering excellence (TDD, contract & performance testing, observability, shift-left quality). Proven record of cutting latency, boosting deployment frequency (months to weekly), achieving 99.99% availability and accelerating business value through autonomous, coached teams.
+Principal software architect (25+ yrs) delivering large-scale distributed, event-driven and data-intensive platforms for Fortune 500 enterprises.
+
+Led the modernization of legacy ecosystems (monolith to microservices, DDD, event-driven, IaC, cloud-native/hybrid) while elevating engineering excellence (TDD, pair programming, refactoring, contract & performance testing, observability, shift-left quality).
+
+Led the modernization of data platforms (lambda architecture, data lake/mesh). Experience designing and implementing ETL and real-time/streaming pipelines using Databricks and cloud-native stack (AWS, Azure), while elevating data excellence (governance frameworks, cataloging and lineage, security and compliance, data quality, and democratized data access).
+
+Proven record of cutting latency, boosting deployment frequency (months to weekly), achieving 99.99% availability and accelerating business value through autonomous, cross-functional teams.
 
 ## Core Competencies
 
@@ -99,3 +107,5 @@ Additional university coursework: Informatics (Faculdade Christus), Engineering 
 ## Languages
 
 Portuguese (Native) • English (Full Professional)
+
+<sub>Legend: 🔗 indicates a clickable hyperlink in the digital version of this PDF.</sub>
