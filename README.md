@@ -31,10 +31,10 @@ header-includes:
 
 Principal Software Architect | Distributed Systems & Data Platforms | Engineering Excellence
 
-Mason, OH • Email: jplfdsilva@gmail.com (link) • LinkedIn: linkedin.com/in/joaopauloleonidas (link) • GitHub: github.com/jpaulorio (link) • Site: jplfds.com (link)  
-[Latest PDF](https://jpaulorio.github.io/resume/JP_Silva_Resume.pdf) (link)
+Mason, OH • Email: [jplfdsilva@gmail.com](mailto:jplfdsilva@gmail.com) 🔗 • LinkedIn: [linkedin.com/in/joaopauloleonidas](https://linkedin.com/in/joaopauloleonidas) 🔗 • GitHub: [github.com/jpaulorio](https://github.com/jpaulorio) 🔗 • Site: [jplfds.com](https://jplfds.com) 🔗  
+[Latest PDF](https://jpaulorio.github.io/resume/JP_Silva_Resume.pdf) 🔗
 
-<sub>Legend: Items annotated with "(link)" are clickable in the PDF.</sub>
+<sub>Legend: 🔗 indicates a clickable hyperlink in the PDF.</sub>
 
 ## Summary
 
@@ -87,14 +87,14 @@ Earlier Experience (1998–2012): Leadership & engineering roles (WPF, ASP.NET M
 
 ## Speaking & Publications (Full List)
 
-- [Apache Spark](https://pt.slideshare.net/slideshow/apache-spark-intro-237112555/237112555?_gl=1*1wwju08*_gcl_au*MzQ1OTI1OTU2LjE3NDM5NDc1ODY.) (link)
-- [Apache Kafka](https://www.slideshare.net/slideshow/kafka-basics/237110884) (link)
-- [Apache Cassandra](https://www.slideshare.net/slideshow/query-driven-development/78218074) (link)
-- [Recommender Systems](https://www.slideshare.net/slideshow/recommender-systems-52718571/52718571) (link)
-- [Apache Storm](https://www.slideshare.net/JooPauloLeonidasFern/apache-storm-basics) (link)
-- [GPU Programming - OpenCL](https://www.slideshare.net/slideshow/opencl-heterogeneous-parallel-computing/52435001) (link)
-- [Unit Testing](https://www.slideshare.net/slideshow/unit-testing-basics-52434530/52434530) (link)
-- [QCon 2017 Rio Workshop - Data Lakes - PT-BR](https://pt.slideshare.net/slideshow/qcon-rio-2015-data-lakes-workshop/52430448?_gl=1*1cv7tzx*_gcl_au*MzQ1OTI1OTU2LjE3NDM5NDc1ODY.) (link)
+- [Apache Spark](https://pt.slideshare.net/slideshow/apache-spark-intro-237112555/237112555?_gl=1*1wwju08*_gcl_au*MzQ1OTI1OTU2LjE3NDM5NDc1ODY.) 🔗
+- [Apache Kafka](https://www.slideshare.net/slideshow/kafka-basics/237110884) 🔗
+- [Apache Cassandra](https://www.slideshare.net/slideshow/query-driven-development/78218074) 🔗
+- [Recommender Systems](https://www.slideshare.net/slideshow/recommender-systems-52718571/52718571) 🔗
+- [Apache Storm](https://www.slideshare.net/JooPauloLeonidasFern/apache-storm-basics) 🔗
+- [GPU Programming - OpenCL](https://www.slideshare.net/slideshow/opencl-heterogeneous-parallel-computing/52435001) 🔗
+- [Unit Testing](https://www.slideshare.net/slideshow/unit-testing-basics-52434530/52434530) 🔗
+- [QCon 2017 Rio Workshop - Data Lakes - PT-BR](https://pt.slideshare.net/slideshow/qcon-rio-2015-data-lakes-workshop/52430448?_gl=1*1cv7tzx*_gcl_au*MzQ1OTI1OTU2LjE3NDM5NDc1ODY.) 🔗
 
 ## Education
 
