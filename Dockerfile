@@ -13,6 +13,7 @@ RUN apt-get update && \
       texlive-luatex \
       texlive-latex-extra \
       texlive-fonts-recommended \
+      texlive-fonts-extra \
       fonts-noto-color-emoji \
       fonts-dejavu \
       fontconfig \
