@@ -1,98 +1,86 @@
-# Joao Paulo Leonidas Fernandes Dias da Silva  
-Mason, OH | +1-513-XXX-XXXX | jplfdsilva@gmail.com  
-[linkedin.com/in/joaopauloleonidas](https://linkedin.com/in/joaopauloleonidas) | [jplfds.com](https://jplfds.com) | [github.com/jpaulorio](https://github.com/jpaulorio)
-
-[Resume's latest version](https://jpaulorio.github.io/resume/JP_Silva_Resume.pdf) (this document)
-
 ---
+title: "Joao Paulo L. F. D. da Silva"
+subtitle: "Principal Software Architect | Distributed Systems • Event-Driven & Data Platforms • Team Enablement"
+author: "Joao Paulo Leonidas Fernandes Dias da Silva"
+keywords:
+  [
+    "Distributed Systems",
+    "Event-Driven Architecture",
+    "Microservices",
+    "Data Engineering",
+    "DDD",
+    "Kafka",
+    "Spark",
+    "Kubernetes",
+    "Terraform",
+    "Cloud",
+    "CQRS",
+    "Event Sourcing",
+    "Leadership",
+    "TDD",
+    "GenAI",
+  ]
+geometry: margin=1in
+fontsize: 10pt
+---
+
+# Joao Paulo L. F. D. da Silva
+
+Principal Software Architect | Distributed Systems & Data Platforms | Engineering Excellence
+
+Mason, OH • jplfdsilva@gmail.com • linkedin.com/in/joaopauloleonidas • github.com/jpaulorio • jplfds.com  
+[Latest PDF](https://jpaulorio.github.io/resume/JP_Silva_Resume.pdf)
 
 ## Summary
 
-Principal-level Software Engineer and Architect with over 25 years of experience, specializing in designing and delivering complex distributed systems, data solutions for global Fortune 500 companies. Proven expertise in microservices, event-driven architecture, Domain-Driven Design (DDD), and data engineering (Apache Spark). Recently spearheaded the modernization of a legacy microservices architecture while improving the delivery teams' development practices by introducing Agile practices like trunk-based development, pair programming, TDD, dev huddles, infra-as-code, test pyramid, tech debt management, among others. Passionate about coaching high-performing engineering teams, championing agile best practices, and driving technical strategy that aligns with business objectives.
+Principal software architect (25+ yrs) delivering large-scale distributed, event-driven and data-intensive platforms for Fortune 500 enterprises. Modernizes legacy ecosystems (microservices, streaming, IaC, trunk-based delivery) while elevating engineering excellence (TDD, contract & performance testing, observability, shift-left quality). Proven record of cutting latency, boosting deployment frequency (months to weekly), achieving 99.99% availability and accelerating business value through autonomous, coached teams.
 
----
+## Core Competencies
 
-## Skills
+Architecture: Distributed Systems, Microservices, Event-Driven Architecture, Event Sourcing, CQRS, Actor Model, Domain-Driven Design  
+Data & Streaming: Apache Kafka, Apache Spark (batch & streaming), Hadoop Ecosystem, Data Lakes, Data Warehousing, Data Mesh, ETL, Real-Time Analytics  
+Cloud & Infrastructure: AWS, Azure, GCP, Kubernetes, Docker, Terraform, Bicep, Resilience & Performance Engineering, Scalability Patterns  
+Engineering Excellence: TDD, Contract Testing (Pact), Performance (Gatling, K6), Test Pyramid, Shift-Left Quality, Observability (Prometheus, Grafana, Datadog, Dynatrace, ELK)  
+Languages & Paradigms: Java, Scala, Clojure, C#/.NET, JavaScript/TypeScript, Functional & Reactive, Parallel & Async Programming  
+AI / GenAI: LLMs, RAG, Prompt Engineering, Agentic Systems, LangChain / LangGraph, Claude API, OpenAI API, Hugging Face Models, MCP  
+Leadership & Delivery: Technical Strategy, Roadmapping, Trunk-Based Development, Continuous Delivery Enablement, Coaching (Clean Code, TDD, Agile), Stakeholder & Executive Communication, Technical Discovery & Inception Facilitation
 
-### Architecture & Design
-- Distributed Systems Design, Microservices, Event-Driven Architecture (EDA), Actor Model, Event Sourcing/CQRS
-- Domain-Driven Design (DDD), Software Architecture Patterns
-- Cloud Architecture: AWS, Azure, GCP
-- API Design: REST, gRPC, GraphQL
-- Scalability, Resilience, Performance Optimization
+## Experience
 
-### Technical Expertise & DevOps
-- **Languages**: Java, Scala, Clojure, C#/.NET, JS/TS
-- **CI/CD**: Jenkins, CircleCI, Harness, GitHub Actions, Azure DevOps
-- **Containerization**: Docker, Kubernetes
-- **Infrastructure as Code (IaC)**: Terraform, Bicep (Azure)
-- **Monitoring**: Dynatrace, Prometheus, Grafana, Datadog, ELK Stack
-- **Testing**: Unit, Integration, Contract (Pact), Performance (Gatling/K6), Smoke
-- Parallel Programming
-- Mobile Development (iOS, Android – foundational)
+### ThoughtWorks – Lead Consultant (May 2014–Present | Mason, OH)
 
-### Leadership & Methodology
-- Engineering Leadership, Coaching (Clean Code, TDD, Agile)
-- Technical Strategy & Roadmapping
-- Agile (Scrum, Kanban)
-- Stakeholder Management, Executive Communication
-- Project Inception, Technical Discovery Facilitation
+- Improved critical platform response time 80% and sustained 99.99% availability by architecting an event-sourced CQRS solution (Scala, Akka, gRPC) for a Fortune 500 client
+- Scaled 60+ microservices processing 20M+ daily events (99.99% uptime) using DDD-aligned bounded contexts and resilient streaming/event patterns
+- Migrated batch workloads to Spark streaming (10+ TB daily throughput) reducing end-to-end processing time 60% and enabling near-real-time analytics
+- Established multi-layer automated test strategy (unit, integration, contract, performance) driving 90% reduction in production defects
+- Accelerated deployment frequency from semi-annual to weekly via trunk-based development, pair programming, technical debt governance and shift-left quality
+- Facilitated C-level technical discovery shaping multi-year modernization and platform roadmaps
+- Mentored 30+ engineers (architecture, TDD, clean code) and coached 10+ consultants on career development
+- Conference speaker (QCon Rio, QCon São Paulo) on scalable data lake architecture
 
-### Data Engineering
-- Apache Spark, Hadoop Ecosystem, ETL, Stream Processing, Data Lakes, Data Warehousing
-- Databases: Cassandra, MongoDB, MySQL, SQL Server, PostgreSQL
+### Instituto Atlântico – System Analyst / Developer (Sep 2013–Jan 2014 | Fortaleza, Brazil)
 
-### AI/ML & Data Platforms
-- **Gen-AI Platforms**: Claude API, OpenAI API, Hugging Face Models
-- **LLM Concepts & Tooling**: LLMs, RAG, Prompt Engineering, Agentic Systems
-- **Frameworks**: LangChain
-- **Core Concepts**: Machine Learning, Neural Networks, LLMs/GenAI
+- Contributed Android components for enterprise printer management (HP ecosystem)
+- Introduced Git workflows improving collaboration and release traceability
 
----
+Earlier Experience (1998–2012): Leadership & engineering roles (WPF, ASP.NET MVC, mobile, financial systems); Founded quantoe.com.br (B2B price comparison platform); Delivered iOS/Android apps for major brands; Robotics lab software/hardware solutions
 
-## Work Experience
+## Selected Achievements
 
-### **Lead Consultant** | ThoughtWorks | Mason, OH  
-**May 2014 – Present**
-
-- Architected an event-sourcing/CQRS solution (Scala/Akka/gRPC) for a Fortune 500 client, achieving **80% improvement** in response time and **99.99% uptime**.
-- Designed and led a **60+ microservices** system processing **20M+ daily events** with **99.99% uptime** for a global retail client. Leveraged DDD for clean bounded contexts.
-- Developed high-performance Spark streamming pipelines **10TB+ daily** for a healthcare provider, replacing batch with streamming processing resulting in **60% reduction in overall processing time**
-- Implemented automated test strategies (unit to contract), resulting in a **90% drop in production defects**.
-- Facilitated technical discovery workshops with C-level stakeholders, defining roadmaps for digital transformation.
-- Facilidated technological and development process assessment to large Canadian Health Care provider.
-- Mentored **30+ engineers**, improving team velocity by **40%** and increasing deployment frequency to **once a week** from once every 6 months through coaching on TDD, Clean Code, and agile principles.
-- Coached over 10 colleagues over the years on career and professional growth.
-- Speaker at QCon Rio 2017 and QCon São Paulo on “Architecting Scalable Data Lakes.”
-
-### **System Analyst – Software Developer** | Instituto Atlântico | Fortaleza, Brazil  
-**Sep 2013 – Jan 2014**  
-- Contributed to Android development team on HP printers management app.  
-- Coached team members on adoption of version control with Git.
-
----
-
-### **Early Career Highlights (1998–2012)**
-
-- **Contract Developer**, XS2theWorld (2012): Built iOS/Android apps for clients like McDonald’s.
-- **Project Leader**, Instituto Atlântico (2010–2012): Led WPF and ASP.NET MVC teams for major Brazilian companies.
-- **Founder**, Auctor Informática (2006–2012): Created www.quantoe.com.br, a B2B price comparison platform.
-- **Developer**, Anima Informática (2002–2006): Built financial systems using Delphi and C#.
-- **Lab Monitor (Robotics Lab)**, Instituto ORT (1998–2000): Designed robotics software/hardware solutions.
-
----
+- 40% engineering velocity increase through streamlined delivery practices and architectural governance
+- 10TB+ streaming ingestion platform enabling shift from batch latency to sub-hour insights
+- Sustained 99.99% availability across high-scale, event-driven retail ecosystem during global peak loads
+- Deployment cadence improved from once / 6 months to weekly without quality regression
 
 ## Certifications
 
-- AWS Certified Cloud Practitioner  
-- AWS Partner Technical Accreditation  
-- HDP Developer: Apache Pig and Hive  
-- Introduction to Functional Programming (edX)  
+- AWS Certified Cloud Practitioner
+- AWS Partner Technical Accreditation
+- HDP Developer: Apache Pig and Hive
+- Introduction to Functional Programming (edX)
 - Heterogeneous Parallel Programming (Coursera – University of Illinois)
 
----
-
-## Technical Content
+## Speaking & Publications (Full List)
 
 - [Apache Spark](https://pt.slideshare.net/slideshow/apache-spark-intro-237112555/237112555?_gl=1*1wwju08*_gcl_au*MzQ1OTI1OTU2LjE3NDM5NDc1ODY.)
 - [Apache Kafka](https://www.slideshare.net/slideshow/kafka-basics/237110884)
@@ -105,13 +93,9 @@ Principal-level Software Engineer and Architect with over 25 years of experience
 
 ## Education
 
-- **Faculdade Christus** – Informatics Coursework, Fortaleza, Brazil (2009–2012) - Incomplete
-- **UERJ** – Engineering Coursework, Rio de Janeiro, Brazil (1998–2001) - Incomplete  
-- **Instituto de Tecnologia ORT** – AAS in Electronics, Rio de Janeiro, Brazil (1995–1997)
-
----
+Instituto de Tecnologia ORT – AAS Electronics  
+Additional university coursework: Informatics (Faculdade Christus), Engineering (UERJ)
 
 ## Languages
 
-- **Portuguese** – Native  
-- **English** – Full Professional Proficiency
+Portuguese (Native) • English (Full Professional)
