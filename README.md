@@ -27,8 +27,8 @@ header-includes:
     \usepackage{fontspec}
     \usepackage{hyperref}
     \hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
-    % Use Harfbuzz for better emoji/color glyph handling
-    \setmainfont{DejaVu Sans}[Renderer=Harfbuzz,FallbackFamilies={Noto Color Emoji}]
+    % Main font + emoji fallback (remove Renderer=Harfbuzz for broader compatibility)
+    \setmainfont{DejaVu Sans}[FallbackFamilies={Noto Color Emoji}]
 ---
 
 # About
@@ -97,7 +97,7 @@ Earlier Experience (1998–2012): Leadership & engineering roles (WPF, ASP.NET M
 - [Recommender Systems](https://www.slideshare.net/slideshow/recommender-systems-52718571/52718571) 🔗
 - [Apache Storm](https://www.slideshare.net/JooPauloLeonidasFern/apache-storm-basics) 🔗
 - [GPU Programming - OpenCL](https://www.slideshare.net/slideshow/opencl-heterogeneous-parallel-computing/52435001) 🔗
-- [Unit Testing](https://www.slideshare.net/slideshow/unit-testing-basics-52434530/52434530) 🔗
+- [Unit Testing](https://www.slideshare.net/slideshare/unit-testing-basics-52434530/52434530) 🔗
 - [QCon 2017 Rio Workshop - Data Lakes - PT-BR](https://pt.slideshare.net/slideshow/qcon-rio-2015-data-lakes-workshop/52430448?_gl=1*1cv7tzx*_gcl_au*MzQ1OTI1OTU2LjE3NDM5NDc1ODY.) 🔗
 
 ## Education
