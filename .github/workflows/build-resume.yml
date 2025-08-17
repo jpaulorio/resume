@@ -14,7 +14,7 @@ jobs:
 
     # Use prebuilt container with pandoc + LaTeX + fonts
     container:
-      image: ghcr.io/OWNER/resume-build:latest
+      image: ghcr.io/jpaulorio/resume-build:latest
       options: --user 1001:1001
 
     # Default to bash (so set -euo pipefail works consistently)
