@@ -14,7 +14,7 @@ jobs:
 
     # Run this job inside your prebuilt image so tools are preinstalled
     container:
-      image: ghcr.io/OWNER/resume-build:latest
+      image: ghcr.io/jpaulorio/resume-build:latest
       options: --user 1001:1001 # avoids root-owned artifacts on Actions; optional
 
     permissions:
