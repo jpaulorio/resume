@@ -39,8 +39,6 @@ jobs:
           echo "Building $PDF_FILENAME"
           pandoc README.md \
             --pdf-engine=lualatex \
-            -V mainfont="DejaVu Sans" \
-            -V monofont="DejaVu Sans Mono" \
             -V fontsize=10pt \
             -o "$PDF_FILENAME"
           echo "PDF_ARTIFACT_NAME=$PDF_FILENAME" >> "$GITHUB_ENV"
