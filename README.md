@@ -20,11 +20,6 @@ keywords:
   - GenAI
 fontsize: 10pt
 geometry: margin=1in
-header-includes:
-  - |
-    \usepackage{fontawesome5}
-    % Optional: small vertical tweak, uncomment if you want tighter baseline
-    % \newcommand{\faLink}{\raisebox{0.1ex}{\faIcon{link}}}
 ---
 
 # About

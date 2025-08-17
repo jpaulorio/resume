@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - README.md
+      - .pandoc/header.tex
+      - .pandoc/emoji-to-fa.lua
       - .github/workflows/build-resume.yml
   workflow_dispatch:
 
@@ -12,12 +14,13 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
 
-    # Use prebuilt container with pandoc + LaTeX + fonts
+    # Use prebuilt container with pandoc + LaTeX (+ fonts + fontawesome5)
     container:
       image: ghcr.io/jpaulorio/resume-build:latest
+      # Optional: avoid root-owned artifacts on the runner
       options: --user 1001:1001
 
-    # Default to bash (so set -euo pipefail works consistently)
+    # Default to bash so set -euo pipefail works
     defaults:
       run:
         shell: bash
@@ -26,7 +29,7 @@ jobs:
       contents: read
       pages: write
       id-token: write
-      packages: read
+      packages: read # needed to pull GHCR images, esp. if private
 
     steps:
       - name: Checkout
@@ -36,6 +39,7 @@ jobs:
         run: |
           set -euo pipefail
           fc-list | grep -i "noto\|dejavu" | head -n 25 || true
+          kpsewhich fontawesome5.sty || true
           pandoc --version | head -n 2
 
       - name: Set date
@@ -46,6 +50,7 @@ jobs:
           set -euo pipefail
           pandoc -s README.md \
             --from=gfm+yaml_metadata_block \
+            --include-in-header=.pandoc/header.tex \
             --lua-filter=.pandoc/emoji-to-fa.lua \
             --pdf-engine=lualatex \
             -V documentclass=article \
@@ -56,6 +61,14 @@ jobs:
             -V geometry:margin=1in \
             -o resume-debug.tex
           echo "Generated intermediate resume-debug.tex"
+
+      - name: Sanity check TeX
+        run: |
+          set -euo pipefail
+          echo "Check for \\begin{document}:"
+          grep -n '\\begin{document}' resume-debug.tex | head -n 1
+          echo "First 120 lines of resume-debug.tex:"
+          nl -ba resume-debug.tex | sed -n '1,120p'
 
       - name: Upload TeX artifact (debug)
         uses: actions/upload-artifact@v4
@@ -71,6 +84,8 @@ jobs:
           echo "Building $PDF_FILENAME"
           pandoc -s README.md \
             --from=gfm+yaml_metadata_block \
+            --include-in-header=.pandoc/header.tex \
+            --lua-filter=.pandoc/emoji-to-fa.lua \
             --pdf-engine=lualatex \
             -V documentclass=article \
             -V colorlinks=true -V linkcolor=blue -V urlcolor=blue \
