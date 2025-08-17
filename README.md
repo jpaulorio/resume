@@ -36,17 +36,17 @@ GitHub: [github.com/jpaulorio](https://github.com/jpaulorio) 🔗
 
 Site: [jplfds.com](https://jplfds.com) 🔗
 
-[Latest Resume PDF](https://jpaulorio.github.io/resume/JP_Silva_Resume.pdf) 🔗
+Resume: [Latest PDF](https://jpaulorio.github.io/resume/JP_Silva_Resume.pdf) 🔗
 
 ## Summary
 
-Principal software architect (25+ yrs) delivering large-scale distributed, event-driven and data-intensive platforms for Fortune 500 enterprises.
+Principal software architect (25+ yrs) delivering large-scale distributed, event-driven and data-intensive platforms for Fortune 500 companies.
 
 Led the modernization of legacy ecosystems (monolith to microservices, DDD, event-driven, IaC, cloud-native/hybrid) while elevating engineering excellence (TDD, pair programming, refactoring, contract & performance testing, observability, shift-left quality).
 
 Architected data platforms (lambda architecture, data lake/mesh), designed and implementated ETL and real-time/streaming pipelines using Databricks, Apache Spark, HDFS, Kafka, and the equivalent cloud-native stack in AWS and Azure, while elevating data excellence (governance frameworks, cataloging and lineage, security and compliance, data quality, and democratized data access).
 
-Has consistently helped autonomous and cross-functional teams deliver business value early and often while ensuring the implementation of high-quality, high-performance, and maintainable solutions.
+Has consistently helped autonomous and cross-functional teams deliver business value early and often while ensuring the implementation of high-quality, high-performant, and maintainable solutions.
 
 Brings strong consulting and leadership skills (coaching and mentoring individuals and teams, facilitating collaboration, guiding conflict resolution, and building stakeholder alignment) to drive lasting transformation beyond technology delivery.
 
@@ -54,7 +54,7 @@ Brings strong consulting and leadership skills (coaching and mentoring individua
 
 - Architecture: Distributed Systems, Microservices, Event-Driven Architecture, Event Sourcing, CQRS, Actor Model, Domain-Driven Design.
 
-- Data & Streaming: Apache Kafka, Apache Spark (batch & streaming), Hadoop Ecosystem, Data Lakes, Data Warehousing, Data Mesh, ETL, Real-Time Analytics.
+- Data & Streaming: Apache Kafka, Apache Spark (batch & streaming), Hadoop Ecosystem, Data Lakes, Data Warehousing, Data Mesh, ETL, Real-Time Analytics, Machine Learning.
 
 - Cloud & Infrastructure: AWS, Azure, GCP, Kubernetes, Docker, Terraform, Bicep, Resilience & Performance Engineering, Scalability Patterns.
 
