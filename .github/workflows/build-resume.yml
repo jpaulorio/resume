@@ -11,23 +11,25 @@ on:
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
+
+    # Run this job inside your prebuilt image so tools are preinstalled
+    container:
+      image: ghcr.io/OWNER/resume-build:latest
+      options: --user 1001:1001 # avoids root-owned artifacts on Actions; optional
+
     permissions:
       contents: read
       pages: write
       id-token: write
+      packages: read # allow pulling the GHCR image (private repos may need this)
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install pandoc, LaTeX and emoji fonts
+      - name: Verify toolchain (optional)
         run: |
           set -euo pipefail
-          sudo apt-get update
-          sudo apt-get install -y --no-install-recommends \
-            pandoc texlive-luatex texlive-latex-extra texlive-fonts-recommended \
-            fonts-noto-color-emoji fonts-dejavu
-          fc-cache -f
           fc-list | grep -i "noto\|dejavu" | head -n 25 || true
           pandoc --version | head -n 2
 
