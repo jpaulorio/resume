@@ -45,26 +45,38 @@ Proven record of cutting latency, boosting deployment frequency (months to weekl
 
 ## Core Competencies
 
-Architecture: Distributed Systems, Microservices, Event-Driven Architecture, Event Sourcing, CQRS, Actor Model, Domain-Driven Design  
-Data & Streaming: Apache Kafka, Apache Spark (batch & streaming), Hadoop Ecosystem, Data Lakes, Data Warehousing, Data Mesh, ETL, Real-Time Analytics  
-Cloud & Infrastructure: AWS, Azure, GCP, Kubernetes, Docker, Terraform, Bicep, Resilience & Performance Engineering, Scalability Patterns  
-Engineering Excellence: TDD, Contract Testing (Pact), Performance (Gatling, K6), Test Pyramid, Shift-Left Quality, Observability (Prometheus, Grafana, Datadog, Dynatrace, ELK)  
-Languages & Paradigms: Java, Scala, Clojure, C#/.NET, JavaScript/TypeScript, Functional & Reactive, Parallel & Async Programming  
-AI / GenAI: LLMs, RAG, Prompt Engineering, Agentic Systems, LangChain / LangGraph, Claude API, OpenAI API, Hugging Face Models, MCP  
-Leadership & Delivery: Technical Strategy, Roadmapping, Trunk-Based Development, Continuous Delivery Enablement, Coaching (Clean Code, TDD, Agile), Stakeholder & Executive Communication, Technical Discovery & Inception Facilitation
+- Architecture: Distributed Systems, Microservices, Event-Driven Architecture, Event Sourcing, CQRS, Actor Model, Domain-Driven Design.
+
+- Data & Streaming: Apache Kafka, Apache Spark (batch & streaming), Hadoop Ecosystem, Data Lakes, Data Warehousing, Data Mesh, ETL, Real-Time Analytics.
+
+- Cloud & Infrastructure: AWS, Azure, GCP, Kubernetes, Docker, Terraform, Bicep, Resilience & Performance Engineering, Scalability Patterns.
+
+- Engineering Excellence: TDD, Contract Testing (Pact), Performance (Gatling, K6), Test Pyramid, Shift-Left Quality, Observability (Prometheus, Grafana, Datadog, Dynatrace, ELK).
+
+- Languages & Paradigms: Java, Scala, Clojure, C#/.NET, JavaScript/TypeScript, Functional & Reactive, Parallel & Async Programming  
+  AI / GenAI: LLMs, RAG, Prompt Engineering, Agentic Systems, LangChain / LangGraph, Claude API, OpenAI API, Hugging Face Models, MCP.
+
+- Leadership & Delivery: Technical Strategy, Roadmapping, Trunk-Based Development, Continuous Delivery Enablement, Coaching (Clean Code, TDD, Agile), Stakeholder & Executive Communication, Technical Discovery & Inception Facilitation.
 
 ## Experience
 
 ### ThoughtWorks – Lead Consultant (May 2014–Present | Mason, OH)
 
-- Improved critical platform response time 80% and sustained 99.99% availability by architecting an event-sourced CQRS solution (Scala, Akka, gRPC) for a Fortune 500 client
-- Scaled 60+ microservices processing 20M+ daily events (99.99% uptime) using DDD-aligned bounded contexts and resilient streaming/event patterns
-- Migrated batch workloads to Spark streaming (10+ TB daily throughput) reducing end-to-end processing time 60% and enabling near-real-time analytics
-- Established multi-layer automated test strategy (unit, integration, contract, performance) driving 90% reduction in production defects
-- Accelerated deployment frequency from semi-annual to weekly via trunk-based development, pair programming, technical debt governance and shift-left quality
-- Facilitated C-level technical discovery shaping multi-year modernization and platform roadmaps
-- Mentored 30+ engineers (architecture, TDD, clean code) and coached 10+ consultants on career development
-- Conference speaker (QCon Rio, QCon São Paulo) on scalable data lake architecture
+- Improved critical platform response time 80% and sustained 99.99% availability by architecting an event-sourced CQRS solution (Scala, Akka, gRPC) for a Fortune 500 client.
+
+- Scaled 60+ microservices processing 20M+ daily events (99.99% uptime) using DDD-aligned bounded contexts and resilient streaming/event patterns.
+
+- Migrated batch workloads to Spark streaming (10+ TB daily throughput) reducing end-to-end processing time 60% and enabling near-real-time analytics.
+
+- Established multi-layer automated test strategy (unit, integration, contract, performance) driving 90% reduction in production defects.
+
+- Accelerated deployment frequency from semi-annual to weekly via trunk-based development, pair programming, technical debt governance and shift-left quality.
+
+- Facilitated C-level technical discovery shaping multi-year modernization and platform roadmaps.
+
+- Mentored 30+ engineers (architecture, TDD, clean code) and coached 10+ consultants on career development.
+
+- Conference speaker (QCon Rio, QCon São Paulo) on scalable data lake architecture.
 
 ### Instituto Atlântico – System Analyst / Developer (Sep 2013–Jan 2014 | Fortaleza, Brazil)
 
