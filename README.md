@@ -39,9 +39,11 @@ Principal software architect (25+ yrs) delivering large-scale distributed, event
 
 Led the modernization of legacy ecosystems (monolith to microservices, DDD, event-driven, IaC, cloud-native/hybrid) while elevating engineering excellence (TDD, pair programming, refactoring, contract & performance testing, observability, shift-left quality).
 
-Led the modernization of data platforms (lambda architecture, data lake/mesh). Experience designing and implementing ETL and real-time/streaming pipelines using Databricks and cloud-native stack (AWS, Azure), while elevating data excellence (governance frameworks, cataloging and lineage, security and compliance, data quality, and democratized data access).
+Architected data platforms (lambda architecture, data lake/mesh), designed and implementated ETL and real-time/streaming pipelines using Databricks, Apache Spark, HDFS, Kafka, and the equivalent cloud-native stack in AWS and Azure, while elevating data excellence (governance frameworks, cataloging and lineage, security and compliance, data quality, and democratized data access).
 
 Proven record of cutting latency, boosting deployment frequency (months to weekly), achieving 99.99% availability and accelerating business value through autonomous, cross-functional teams.
+
+Brings strong consulting and leadership skills (coaching and mentoring individuals and teams, facilitating collaboration, guiding conflict resolution, and building stakeholder alignment) to drive lasting transformation beyond technology delivery.
 
 ## Core Competencies
 
